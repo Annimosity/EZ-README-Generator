@@ -1,7 +1,6 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer")
 const fs = require("fs")
-const generateMarkdown = require("./utils/generateMarkdown.js")
+const generateMarkdown = require("./generateMarkdown.js")
 
 const questions = [
     {type:"input", name:"title", message:"What is the title of your project?"}, 
@@ -32,7 +31,6 @@ const questions = [
 
 ];
 
-// TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(answers => {
         fs.writeFile("README.md", generateMarkdown(answers),err => {
@@ -44,6 +42,4 @@ function init() {
         })
     }) 
 }
-
-// Function call to initialize app
 init();
