@@ -25,6 +25,8 @@ Then access the repo through the terminal, and run the command $ node index.js
 Meg Meyers, fullstack bootcamp tutor for UT EDX
 
 ## Tests
+![image](https://github.com/Annimosity/EZ-README-Generator/assets/153317889/f8f57885-46ab-4f11-8ae9-0bada5269eff)
+https://drive.google.com/file/d/1E4zlDRN8dpRYEV0y53R7tIwRqK2fwtFh/view
 
 
 ## Questions
